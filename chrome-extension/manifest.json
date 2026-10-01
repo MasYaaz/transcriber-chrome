@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "MeetSync AI Transcriber",
+  "version": "1.0",
+  "description": "Real-time Google Meet transcription & AI summarizer",
+  "permissions": ["tabCapture", "offscreen", "storage", "activeTab"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
